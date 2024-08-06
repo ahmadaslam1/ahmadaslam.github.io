@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background-image: url('starry_background.jpg'); /* Starry background */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.header {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    margin: 0;
+}
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#canvas-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#info-box {
+    position: fixed; /* Changed to fixed for central positioning */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Darker for better contrast */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    max-width: 400px;
+    z-index: 1000;
+    color: white;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); /* Soft white shadow */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#info-box.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+#about-me-button-container{
+    position: absolute;
+    top: 0px;
+    left: 5.5%;
+    transform: translateX(-50%);
+    z-index: 1500;
+    margin-top: 60px;
+}
+
+#skills-button-container {
+    position: absolute;
+    top: 60px;
+    left: 5.5%;
+    transform: translateX(-50%);
+    z-index: 1500;
+    margin-top: 60px;
+}
+
+#contact-button-container {
+    position: absolute;
+    bottom: 50px;
+    right: 0%;
+    transform: translateX(-50%);
+    z-index: 1500;
+    margin-top: 60px;
+}
+
+#about-me-button,
+#skills-button,
+#contact-button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.034);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#about-me-button:hover,
+#skills-button:hover,
+#contact-button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+#about-me-box,
+#skills-box,
+#contact-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 400px;
+    z-index: 1000;
+    color: white;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#about-me-box.visible,
+#skills-box.visible,
+#contact-box.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Slider Styles */
+.slider-container {
+    position: absolute;
+    bottom: 40px;
+    left: 48%;
+    transform: translateX(-50%);
+    z-index: 2000;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle-label {
+    width: 50px;
+    height: 26px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+
+.toggle-label:before {
+    content: '☀️'; /* Sun icon for day */
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.toggle:checked + .toggle-label {
+    background-color: #4a90e2; /* Change color to indicate night mode */
+}
+
+.toggle:checked + .toggle-label:before {
+    content: '🌙'; /* Moon icon for night */
+    transform: translateY(-50%) translateX(22px);
+}
+
+img {
+    border-radius: 50%;
+  }

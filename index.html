@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ahmad Aslam Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="header">
+            <h1>Muhammad Ahmad Aslam</h1>
+            <p><strong>Interactive Resumé</strong></p>
+        </div>
+    </center>
+    <div id="canvas-container"></div>
+
+    <div id="info-box" class="hidden">
+        <p id="location-info"></p>
+    </div>
+
+    <!-- About Me Button and Box -->
+    <div id="about-me-button-container">
+        <button id="about-me-button">About</button>
+    </div>
+    <div id="about-me-box" class="hidden">
+        <p id="about-me-info" >
+            <br><br>
+            <img src="your-photo.jpg" width="200" 
+            height="200" alt="Ahmad Aslam"><br><br>
+            <strong>B. Eng. Electrical Engineering<br>McGill University</strong><br><br>
+            <a href="https://www.linkedin.com/in/m-ahmad-aslam">Linkedin Profile</a><br>
+            Passionate about robotics and technology, with experience in various engineering roles.<br><br>
+            <strong>Contact Information</strong><br>
+            Email: muhammad.a.aslam@mail.mcgill.ca<br>
+            Phone: +1 438-927-2636<br>
+            Based in Montreal, QC | Open to relocate<br>
+        </p>
+    </div>
+
+    <!-- Skills Button and Box -->
+    <div id="skills-button-container">
+        <button id="skills-button">Skills</button>
+    </div>
+    <div id="skills-box" class="hidden" text-align="justify">
+        <p  id="skills-info">
+            
+                <strong>Programming:</strong> Java, VHDL, Assembly, Python, HTML5, CSS, Liquid, MATLAB, C, C++, Reactjs, Bootstrap<br><br>
+                <strong>Software:</strong> Microsoft Office Suite, Adobe Creative Suite (Photoshop, Illustrator, After Effects, Premiere Pro)<br><br>
+                <strong>Electrical Circuits and PCB Design:</strong> SPICE, Quartus Prime, NI, LVDAC, Autodesk Fusion 360, Revit<br><br>
+                <strong>Robotics:</strong> Arduino, Raspberry Pi<br><br>
+                <strong>3D and Electrical System Modelling:</strong> AutoCAD, SolidWorks, Autodesk Inventor<br><br>
+                <strong>Coursework:</strong> Control Systems and Methods, CAPSTONE Design Project, Power Systems and Analysis, Engineering Economy (Fundamentals of Accounting, Economics and Finance), Computer Architecture and Microprocessor Systems
+            
+            
+            
+        </p>
+    </div>
+
+    <!-- Contact Information Button and Box -->
+    <div id="contact-button-container">
+        <button id="contact-button">Help</button>
+    </div>
+    <div id="contact-box" class="hidden">
+        <p id="contact-info">
+            The globe can be zoomed in and out of, and can be moved around using the cursor<br><br>
+            The switch below the globe can be used to toggle between day and night modes <br><br>
+            Thank you for reading! :)<br>
+        </p>
+    </div>
+
+    <!-- Slider for Day/Night mode -->
+    <div class="slider-container">
+        <input type="checkbox" id="mode-toggle" class="toggle">
+        <label for="mode-toggle" class="toggle-label"></label>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
