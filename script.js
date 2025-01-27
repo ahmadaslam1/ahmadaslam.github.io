@@ -76,11 +76,11 @@ const locations = [
         name: 'Lewes, DE, USA (Remote)<br><br>Client Relations, Front-End development, Data Analysis',
         lat: 36.7749,
         lon: -77.1394,
-        experience: `Teamo Inc.<br>Sales Engineer Internship<br>May 2023 - Aug 2023<br><br>`,
+        experience: `Teamo Inc.<br>Technical Sales Internship<br>May 2023 - Aug 2023<br><br>`,
     },
     // Water and Power Development Authority of Pakistan
     {
-        name: 'Lahore, Pakistan<br><br>Power Engineering, Data Analysis and Presentation, Field Research',
+        name: 'Lahore, Pakistan<br><br>Power Engineering, Data Analysis, and Presentation, Field Research',
         lat: 30.5497,
         lon: 73.3436,
         experience: `Water and Power Development Authority of Pakistan<br>Summer Internship<br>May 2022 - Aug 2022<br><br>`,
@@ -98,6 +98,13 @@ const locations = [
         lat: 30.5497,
         lon: 76.3436, // 1 unit away from the previous position
         experience: `Sahoolat App Project<br>2023<br><br>`,
+    },
+    // Kyzen
+    {
+        name: 'Ottawa, Canada<br><br>Client Success, Branding Identity, Promotions',
+        lat: 50, // 1 unit away from the previous position
+        lon: -76,
+        experience: `Kyzenn<br>Founder<be>June 2024 - Present<br><br>`,
     },
 ];
 
