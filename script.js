@@ -104,7 +104,7 @@ const locations = [
         name: 'Ottawa, Canada<br><br>Client Success, Branding Identity, Promotions',
         lat: 50, // 1 unit away from the previous position
         lon: -76,
-        experience: `Kyzenn<br>Amazon Brand Manager<be>June 2024 - Present<br><br>`,
+        experience: `Kyzenn<br>Amazon Brand Manager<br>June 2024 - Present<br><br>`,
     },
 ];
 
