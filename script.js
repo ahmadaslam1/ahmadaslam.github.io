@@ -71,6 +71,13 @@ const locations = [
         lon: -69.5673, // 2 units away from the university
         experience: `McGill Computer Science Graduate Society<br>VP Designs<br>Sep 2023 - Apr 2024<br><br>`,
     },
+    // McGill University Health Center
+    {
+        name: 'Montreal, QC, Canada<br><br>PCB Design, 3D Design, RF Coils',
+        lat: 45.5017, // 1 unit away from the university
+        lon: -73.5673,
+        experience: `McGill University Health Center, Neuroscience Research Lab<br>Jul 2024 - Nov 2024<br><br>`,
+    },
     // Teamo Inc.
     {
         name: 'Lewes, DE, USA (Remote)<br><br>Client Relations, Front-End development, Data Analysis',
@@ -90,7 +97,7 @@ const locations = [
         name: 'Lahore, Pakistan<br><br>Client Relations, Branding Identity, Marketing',
         lat: 32.5497, // 1 unit away from the previous position
         lon: 73.3436,
-        experience: `Sense Branding Solutions<br>Founder<br>May 2020 - Present<br><br>`,
+        experience: `Sense Branding Solutions<br>Founder<br>May 2020 - September 2022<br><br>`,
     },
     // Sahoolat App Project
     {
@@ -101,10 +108,10 @@ const locations = [
     },
     // Kyzen
     {
-        name: 'Ottawa, Canada<br><br>Client Success, Branding Identity, Promotions',
-        lat: 50, // 1 unit away from the previous position
-        lon: -76,
-        experience: `Kyzenn<br>Amazon Brand Manager<br>June 2024 - Present<br><br>`,
+        name: 'Toronto, Canada<br><br>Client Success, Branding Identity, Promotions',
+        lat: 60, // 1 unit away from the previous position
+        lon: -73,
+        experience: `Kyzenn<br>Amazon Brand Manager<br>Dec 2024 - Present<br><br>`,
     },
 ];
 
