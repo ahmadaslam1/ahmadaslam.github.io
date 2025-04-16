@@ -74,8 +74,8 @@ const locations = [
     // McGill University Health Center
     {
         name: 'Montreal, QC, Canada<br><br>PCB Design, 3D Design, RF Coils',
-        lat: 45.5017, // 1 unit away from the university
-        lon: -73.5673,
+        lat: 43, // 1 unit away from the university
+        lon: -75,
         experience: `McGill University Health Center, Neuroscience Research Lab<br>Jul 2024 - Nov 2024<br><br>`,
     },
     // Teamo Inc.
@@ -109,8 +109,8 @@ const locations = [
     // Kyzen
     {
         name: 'Toronto, Canada<br><br>Client Success, Branding Identity, Promotions',
-        lat: 60, // 1 unit away from the previous position
-        lon: -73,
+        lat: 43.5017, // 1 unit away from the previous position
+        lon: -80,
         experience: `Kyzenn<br>Amazon Brand Manager<br>Dec 2024 - Present<br><br>`,
     },
 ];
