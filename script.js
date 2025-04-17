@@ -75,7 +75,7 @@ const locations = [
     {
         name: 'Montreal, QC, Canada<br><br>PCB Design, 3D Design, RF Coils',
         lat: 43, // 1 unit away from the university
-        lon: -75,
+        lon: -76,
         experience: `McGill University Health Center, Neuroscience Research Lab<br>Jul 2024 - Nov 2024<br><br>`,
     },
     // Teamo Inc.
