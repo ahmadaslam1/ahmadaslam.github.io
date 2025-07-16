@@ -3,7 +3,7 @@
 // Scene setup
 const scene = new THREE.Scene();
 const loader = new THREE.TextureLoader();
-scene.background = loader.load("starry_background.jpg");
+scene.background = loader.load("starry_night.jpg");
 const camera = new THREE.PerspectiveCamera(15, window.innerWidth / window.innerHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
